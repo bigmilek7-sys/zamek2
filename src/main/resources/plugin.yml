@@ -1,0 +1,17 @@
+name: Zamek
+version: 1.0
+main: pl.zamek.ZamekPlugin
+api-version: '1.21'
+description: Przedmiot, ktory po kliknieciu stawia zamek z blackstone i deepslate.
+commands:
+  zamek:
+    description: Daje przedmiot Zamek
+    usage: /zamek [gracz]
+    permission: zamek.give
+permissions:
+  zamek.give:
+    description: Pozwala uzyc komendy /zamek
+    default: op
+  zamek.use:
+    description: Pozwala stawiac zamek przedmiotem
+    default: op
